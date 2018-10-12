@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>南航MSC</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="../materialize/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="../materialize/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+
+  <div class="fixed-action-btn horizontal">
+      <!-- 浮动按钮 PC端-->
+      <div class="row hide-on-small-only hero-home">           
+    <!-- Element Showed -->
+    <a id="menu" class="waves-effect waves-light btn btn-floating" onclick="$('.tap-target').tapTarget('open');Materialize.toast('扫描二维码关注我们', 1000);" ><i class="material-icons">menu</i></a>
+      <!-- Tap Target Structure -->
+      <div class="tap-target" data-activates="menu">
+        <div class="tap-target-content">
+          <img id = "qrcode"src="../materialize/image/qrcode.gif">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dropdown Structure Used to Nav-->
+<ul id="dropdown1" class="dropdown-content">
+    <li><a href="#!">技术部</a></li>
+    <li><a href="#!">宣传部</a></li>
+    <li><a href="#!">活动部</a></li>
+    <li><a href="#!">行政管理部</a></li>
+</ul>
+<ul id="dropdown2" class="dropdown-content">
+  <li><a href="#!">技术部</a></li>
+  <li><a href="#!">宣传部</a></li>
+  <li><a href="#!">活动部</a></li>
+  <li><a href="#!">行政管理部</a></li>
+</ul>
+  <nav class="pushpin lighten-1" id="firstnav"role="navigation">
+    <div class="nav-wrapper container">
+    <a id="logo-container" href="/" class="brand-logo">
+      <img src='https://studentclub.msra.cn/static/images/msc/msc-logo.png' class="logo-img">
+    </a>
+      <ul class="right hide-on-med-and-down">
+        <li> <a class="navtext btn-large disabled" href="www.hao123.com">凤巢系统</a></li>
+        <li> <a class="navtext" href="https://108.61.206.28">俱乐部私有云</a></li>
+        <li> <a class="navtext dropdown-button1" href="#!" data-activates="dropdown1" onclick="Materialize.toast('参与内推与年级无关<br>我们只关心你的能力', 5000)">招新内推题<i class="material-icons right">arrow_drop_down</i></a></li>
+    </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li> <a class="navtext btn-large disabled" href="#">凤巢系统</a></li>
+        <li> <a class="navtext" href="https://108.61.206.28">俱乐部私有云</a></li>
+        <li> <a class="navtext dropdown-button2" href="#!" data-activates="dropdown2" onclick="Materialize.toast('参与内推与年级无关<br>我们只关心你的能力', 5000)">招新内推题<i class="material-icons right">arrow_drop_down</i></a></li>
+        
+      </ul>
+
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i color="black" class="material-icons">menu
+        </i></a>
+    </div>
+  </nav>
+  
+  <section id="splash-blue">
+  <div class="section no-pad-bot" id="index-banner">
+      <div id="particles-js"></div>            
+    <div class="container">
+      <br><br>
+      <!-- Tablet and desktop -->
+      <div class="row hide-on-small-only hero-home"> 
+      
+      <h1 class="header center white-text">南航微软学生俱乐部</h1>
+      <div class="row center">
+        <h5 class="header col s12 light white-text">Empowering Us All</h5>
+      </div>llll
+      <div class="row center">
+        <a href="#modal1" id="download-button" class="btn-large waves-effect waves-light orange btn modal-trigger">加入我们</a>
+      </div>
+      <br><br>
+    </div>
+
+    <!-- mobile -->
+    <div class="rrow hide-on-med-and-up center-align"> 
+        <h1 class="header center white-text">南航MSC</h1>
+        <div class="row center">
+          <h5 class="header col s12 light white-text">Empowering Us All</h5>
+        </div>
+        <div class="row center">
+          <a href="#modal1" id="download-button" class="btn-large waves-effect waves-light orange btn modal-trigger"><font size="4" color="black">加入我们</font>
+          </a>
+        </div>
+        <br><br>
+      </div>
+  
+    </div>
+
+  </div>
+  </section>
+
+  <section id="whoweare">
+    <div class="container">
+      <div class="section" >
+      <!-- 俱乐部说明 -->
+
+      </div>             
+    </div>       
+  </section>
+
+  <section id="culture">
+  <div class="container">
+    <div class="section" >
+      <!--   俱乐部文化   -->
+      <div>
+        <h5 class="center-align">俱乐部文化</h5>
+      </div>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">发扬“微软四色”</h5>
+
+            <p class="light">“红、黄、蓝、绿”微软四色，象征着技术、社会、生活、环境和谐相处，相互包容，共同发展。南航微软学生俱乐部有15年的历史，继承、学习并发扬这种包容开放的思想，我们是一个吸引全领域人才、鼓励团队协作、尊重个人兴趣爱好的平台。我们希望每一位干事和会员都能在俱乐部找到自己感兴趣的方向，收获一段在微软文化下的难忘经历。
+              
+              </p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">开拓创新思维</h5>
+
+            <p class="light">俱乐部成员屡屡在各种大赛上获奖，创造的各种产品服务着数万南航师生。创新是我们不断追求的目标，我们希望每一位成员都能够开拓创新思维。不推崇传统，只追求创新。在追逐梦想的道路上绽放更多创新思维的花火。              
+              </p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">关注成员成长
+              
+              </h5>
+
+            <p class="light">每一位选择并且加入 MSC 的会员，都一定是积极而且优秀的。微软亚洲研究院为我们的成员提供各种最新资讯和大赛信息，还会通过各种线上线下活动，让成员得到与微软员工交流学习的机会。每一位成员都是卓越的，我们会关注每一位成员的发展和成长。
+              
+              </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <br><br>
+  </div>
+  </section>
+
+  <!-- 俱乐部部门简介 -->
+  <section id="bm">
+    <h5 class="center-align with-subtitle">部门介绍</h4>
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6 l5 offset-l1">
+          <div class="card  sticky-action">
+            <div class="card-content  z-depth-2">
+              <span class="card-title grey-text text-darken-4">技术部</span>
+              <p>微软技术俱乐部的核心部门，是广大南航学子交流计算机技术的优秀平台，同时也在计算机技术普及方面做了很大的努力              </p>            
+            </div>
+            <div class="card-action">
+                <a href="#modal1" class="modal-trigger">我想加入</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col s12 m6 l5">
+          <div class="card  sticky-action">
+            <div class="card-content  z-depth-2">
+              <span class="card-title grey-text text-darken-4">宣传部</span>
+              <p>负责各大新媒体平台(微博、微信)的日常运营以及俱乐部各项活动的宣传辅助。是俱乐部面向学校与社会的一大窗口。
+              </p>            
+            </div>
+            <div class="card-action">
+                <a href="#modal1" class="modal-trigger">我想加入</a>                
+            </div>          
+          </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 m6 l5 offset-l1">
+          <div class="card  sticky-action">
+            <div class="card-content  z-depth-2">
+              <span class="card-title grey-text text-darken-4">行政管理部</span>
+              <p>俱乐部的大管家。负责俱乐部日常活动资料的收集与整理。同时严格把控俱乐部资金的收入与支出，使之公开、透明。</p>            
+            </div>
+            <div class="card-action">
+                <a href="#modal1" class="modal-trigger">我想加入</a>
+              </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l5">
+          <div class="card  sticky-action">
+            <div class="card-content  z-depth-2">
+              <span class="card-title grey-text text-darken-4">活动组织部</span>
+              <p>负责策划组织承办俱乐部的各种大型活动。<br>以及负责加强与各个学生组织直接的联系<br>完成微软亚洲研究院交办的其他任务</p>            
+            </div>
+            <div class="card-action">
+                <a href="#modal1" class="modal-trigger">我想加入</a>                
+            </div>          
+          </div>
+        </div>
+    </div>
+
+    </div>
+  </section>
+
+  <section id="activity">
+      <h5 class="center-align with-subtitle">精彩活动</h4>
+        <div class="container">
+          <div class="slider">
+              <ul class="slides">
+                <li>
+                  <img src="../materialize/image/hackathon.jpg"> <!-- random image -->
+                  <div class="caption center-align">
+                    <h3>黑客马拉松</h3>
+                    <h5 class="light grey-text text-lighten-3">无骇客 不青春</h5>
+                    <a class="btn waves-effect white grey-text darken-text-2" href="http://www.bilibili.com/video/av3145277/">宣传视频</a>                    
+                  </div>
+                </li>
+                <li>
+                  <img src="../materialize/image/img2.jpg"> <!-- random image -->
+                  <div class="caption left-align">
+                    <h3 class="black-text">编程之美挑战赛</h3>
+                    <h5 class="black-text text-lighten-3">微软亚洲研究院举办 多校微软学生俱乐部联动</h5>
+                    <a class="btn waves-effect white grey-text darken-text-2" href="https://studentclub.msra.cn/bop2017/">了解更多</a>                                        
+                  </div>
+                </li>
+                <li>
+                  <img src="../materialize/image/3.png"> <!-- random image -->
+                  <div class="caption right-align">
+                    <h3 class="">微软讲堂</h3>
+                    <h5 class="text-lighten-3">从编程语言到人工智能，我们什么都教</h5>
+                  </div>
+                </li>
+                <li>
+                  <img src="../materialize/image/2.png"> <!-- random image -->
+                  <div class="caption center-align">
+                    <h3>温馨的团建活动</h3>
+                    <h5 class="light grey-text text-lighten-3">让每一个加入俱乐部的成员都建立起深厚的友谊</h5>
+                  </div>
+                </li>
+                <li>
+                  <img src="../materialize/image/1.png"> <!-- random image -->
+                  <div class="caption center-align">
+                    <h3>微软学生夏令营</h3>
+                    <h5 class="light grey-text text-lighten-3">去微软亚洲研究院体验炫酷科技</h5>
+                    <a class="btn waves-effect white grey-text darken-text-2" href="https://mp.weixin.qq.com/s/EM8twlJAp9XSRORZXhr5RQ">了解更多</a>                                                            
+                  </div>
+                </li>
+              </ul>
+      </div>      
+      </div>    
+  </section>
+  <section id="exagon-interlude">
+      <div class="container">
+        <h4 class="center-align">我们期待的你是这样的</h4>    
+        <div class="row center-align">
+          <div class="col s4 m2 offset-m1 exagon">
+            <a href="/key-concepts/smartautomation">
+              <img src="../materialize/image/exagon_smartautomations.png">
+              <p class="tag">热爱创新</p>
+            </a>
+          </div>
+          <div class="col s4 m2 exagon">
+            <a href="/key-concepts/ai">
+              <img src="../materialize/image/exagon_ai.png">
+              <p class="tag" >热爱技术</p>
+            </a>
+          </div>
+          <div class="col s4 m2 exagon">
+            <a href="/key-concepts/agile">
+              <img src="../materialize/image/exagon_agile.png">
+              <p class="tag">热爱艺术</p>
+            </a>
+          </div>      
+          <div class="col s5 offset-s1 m2 exagon">
+            <a href="/key-concepts/collaborative">
+              <img src="../materialize/image/exagon_collaborative.png">
+              <p class="tag">热爱文字</p>
+            </a>
+          </div>
+          <div class="col s5 m2 exagon">
+            <a href="/key-concepts/integration">
+              <img src="../materialize/image/exagon_integrations.png">
+              <p class="tag">热爱组织</p>
+            </a>
+          </div>
+        </div>
+      </div>
+ </section>
+ 
+  <section id="cangiveyou">
+    <div class="container">
+      <h4 class="center-align" id = "top">我们能给你什么？</h4>
+      <div class="row">
+          <div class="col s12 m3 exagon">
+              <h5>志同道合的朋友</h5>
+              <p >在这里你可以找到彼此之间志向、志趣相同，理想、信念契合的好朋友，俱乐部的信条是“我可能不同意你，但是我会支持你”。在这里，我们亦师亦友，惺惺相惜。</p>
+            </div>
+            <div class="col s12 m3 exagon">
+                <h5>丰富精彩的活动</h5>
+                <p >Hackathon(黑客马拉松)，编程之美，起航晚会，微软参观之旅，家庭聚会，定期交流.....每个月定期举行的精彩活动，和微软近距离接触，感受种种黑科技。</p>
+            </div>
+            <div class="col s12 m3 exagon">
+                <h5>自我提升的明灯</h5>
+                <p >俱乐部有很多优秀的学长学姐，他们有的在大公司担任要职，有的创业身价百万，有的是拿满了名校Offer的学霸.....我们会定期请他们过来给我们分享。你会听到他们的精彩，收获自己的感悟。</p>
+            </div>
+            <div class="col s12 m3 exagon">
+                <h5>竞赛科创的快乐</h5>
+                <p >MSC组织成员参加编程之美,菁英计划,Hackathon等等由微软组织的学生竞赛，并且提供技术培训。MSC中卧虎藏龙，不管你是小白还是高手，这里总有你的天地。</p>
+            </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+
+ <footer class="page-footer orange">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">关于我们</h5>
+          <p class="grey-text text-lighten-4">“微软学生俱乐部”是微软亚洲研究院与高校合作培养人才的一种探索。至今全国已有34所高校拥有了自己的 MSC。俱乐部本着“学习先进技术，开拓创新思维，体验多元文化，成就一流人才”的宗旨，在南航计算机科学与技术学院的指导下，通过学生项目、线上微课、产品体验、技术沙龙、学生大赛等活动，培养会员的创新头脑、实践能力和组织能力，让来自不同领域的会员得以展现才华，共同成长。</p>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">友情链接</h5>
+          <ul>
+            <li><a class="white-text" href="#!">微软亚洲研究院</a></li>
+            <li><a class="white-text" href="#!">微软学生俱乐部</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">最新新闻</h5>
+          <ul>
+            <li><a class="white-text" href="#!">###</a></li>
+            <li><a class="white-text" href="#!">###</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">NUAAMSC</a>
+      </div>
+    </div>
+  </footer>
+  <!--  Scripts-->
+  <script src="../materialize/js/particles.js"></script>
+  <script src="../materialize/js/particlesJSON.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="../materialize/js/materialize.min.js"></script>
+  <script src="../materialize/js/init.js"></script>
+  </body>
+</html>

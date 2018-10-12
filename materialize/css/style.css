@@ -1,0 +1,69 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ 
+ nav a, nav ul li a {
+  color: #212121;
+}
+.tap-target{
+  background-color: #3f51b5;  
+}
+#exagon-interlude img{
+  width: 75px;
+}
+#firstnav{
+  background-color: #3f51b5;
+  background-image: radial-gradient(circle farthest-side at right bottom,#3f51b5 34%,#3f51b5 100%);
+}
+.navtext{
+  color: white;
+}
+ .brand-logo img {
+  margin-top: 15px;
+  max-height: 34px;
+}
+.brand-logo text{
+  margin-top: 15px;
+  max-height: 34px;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+#splash-blue {
+  background-color: #3f51b5;
+  background-image: radial-gradient(circle farthest-side at right bottom,#3f51b5 34%,#3f51b5 100%);
+}
+#download-button{
+  font-size: 13px;
+  font-style: red;
+}
+#exagon-interlude {
+  background-color: #3f51b5;
+  background-image:radial-gradient(circle farthest-side at right bottom,#3f51b5 34%,#3f51b5 100%);
+  padding: 4em 2vw 30px!important;
+  color: #fff;
+}
+.card .card-action a {
+  color: #3f51b5!important;
+}
+.tag{
+  color: white;
+}
+#top{
+    margin-top: 45px;
+}
